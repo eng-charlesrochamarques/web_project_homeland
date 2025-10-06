@@ -1,0 +1,11 @@
+* {
+  scroll-behavior: smooth;
+}
+.page {
+  max-width: 1280px;
+  min-width: 320px;
+  margin: 0 auto;
+  background-color: #2a2c2f;
+
+  /*font-family: 'Noto Serif', 'Times New Roman', serif;*/
+}

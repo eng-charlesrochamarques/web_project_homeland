@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header__logo {
+  height: 70px;
+  width: 254px;
+  margin: 34px auto 90px;
+}
