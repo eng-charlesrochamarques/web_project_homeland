@@ -6,21 +6,20 @@
   align-items: center;
 }
 .lead__title {
-  font-family: "Inter Web b";
+  font-family: "Inter Web";
+  font-weight: 900;
   font-size: 96px;
   line-height: 100px;
-
   margin: auto;
-  width: 720px;
-  height: 200px;
+  max-width: 720px;
   text-align: center;
 }
-.lead__subtile {
-  font-family: "Inter Web r";
+.lead__subtitle {
+  font-family: "Inter Web";
+  font-weight: 400;
   font-size: 30px;
   line-height: 36px;
-
-  letter-spacing: 0%;
+  max-width: 720px;
   text-align: center;
 }
 .lead__image {

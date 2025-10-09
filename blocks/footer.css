@@ -1,0 +1,9 @@
+.footer {
+  color: white;
+  max-width: 166px;
+  margin: auto;
+}
+.footer__paragraph {
+  font-size: 14px;
+  line-height: 16px;
+}
