@@ -6,7 +6,7 @@
   align-items: center;
 }
 .lead__title {
-  font-family: "Inter Web";
+  /*font-family: "Inter Web";*/
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
@@ -15,7 +15,7 @@
   text-align: center;
 }
 .lead__subtitle {
-  font-family: "Inter Web";
+  /*font-family: "Inter Web";*/
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
@@ -25,4 +25,8 @@
 .lead__image {
   max-width: 984px;
   max-height: 615px;
+}
+@media screen and (max-width: 544px) {
+}
+@media screen and (max-width: 1024px) {
 }

@@ -6,7 +6,7 @@
 }
 
 .intro__title {
-  font-family: "Inter Web";
+  /*font-family: "Inter Web";*/
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
@@ -14,7 +14,7 @@
   margin: 0;
 }
 .intro__paragraph {
-  font-family: "Inter Web";
+  /*font-family: "Inter Web";*/
   font-weight: 400;
 }
 .intro__paragraph_quote {
@@ -37,4 +37,8 @@
   max-width: 722px;
   margin-top: 32px;
   letter-spacing: 0%;
+}
+@media screen and (max-width: 544px) {
+}
+@media screen and (max-width: 1024px) {
 }
