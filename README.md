@@ -1,4 +1,4 @@
-🏠 Homeland  
+🏠 **Homeland**
 📌 **Project Description**  
 This project is a static and responsive web page called **Homeland**, inspired by the theme _“De Pátria para Pátria”_ — a symbolic journey that connects people and cultures from different parts of the world.
 
@@ -25,6 +25,8 @@ The page includes:
 
 The layout was developed with a **mobile-first** approach and uses **relative units** (`%`, `vw`, `clamp()`) for a fluid design that adapts naturally to different screen sizes.  
 Media queries are minimal and used only when necessary to refine spacing or text alignment.
+
+---
 
 🔧 **Future Improvements**
 
