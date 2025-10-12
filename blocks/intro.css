@@ -1,8 +1,8 @@
 .intro {
   color: white;
-  margin: 92px auto 92px 148px;
-  max-width: 830px;
-  margin-left: 148px;
+  margin: 92px auto 92px;
+  max-width: 64.84%; /*830px*/
+  margin-left: 11.56%; /*148px*/
 }
 
 .intro__title {
@@ -17,21 +17,21 @@
 .intro__paragraph_quote {
   font-size: 1.5rem;
   line-height: 2.125rem;
-  max-width: 738px;
+  max-width: 88.92%; /*738px*/
   margin-top: 40px;
   margin-bottom: 10px;
 }
 .intro__paragraph_author {
   font-size: 1.5rem;
   line-height: 2.125rem;
-  max-width: 732px;
+  max-width: 88.19%; /*732px*/
   text-align: right;
   margin: 0;
 }
 .intro__paragraph_text {
   font-size: 1rem;
   line-height: 163%;
-  max-width: 722px;
+  max-width: 86.99%; /*722px*/
   margin: 0;
   margin-top: 32px;
   letter-spacing: 0%;
@@ -40,43 +40,45 @@
 @media screen and (max-width: 1024px) {
   .intro {
     margin: 90px auto 88px;
-    max-width: 720px;
+    max-width: 93.75%; /*720px*/
   }
 
   .intro__title {
     font-weight: 900;
-    font-size: 2, 8125rem;
+    font-size: 2.8125rem;
     line-height: 3.0625rem;
-    max-width: 707px;
+    max-width: 98.19%; /*707px*/
     margin: 0;
   }
   .intro__paragraph {
     font-weight: 400;
   }
   .intro__paragraph_quote {
+    max-width: 100%; /*720px*/
     margin-top: 50px;
     margin-bottom: 0px;
   }
   .intro__paragraph_author {
+    max-width: 100%; /*720px*/
     margin-top: 2px;
     margin-bottom: 0px;
   }
   .intro__paragraph_text {
-    max-width: 720px;
+    max-width: 100%; /*720px*/
   }
 }
 
 @media screen and (max-width: 544px) {
   .intro {
-    color: white;
     margin: 64px auto;
-    max-width: 288px;
+    max-width: 90%; /*288px*/
   }
 
   .intro__title {
     font-weight: 900;
     font-size: 2rem;
     line-height: 2.1875rem;
+    max-width: 100%; /*288px*/
     margin: 0;
   }
   .intro__paragraph {
@@ -85,15 +87,14 @@
     margin-top: 40px;
     margin-bottom: 10px;
     font-weight: 400;
+    max-width: 100%; /*288px*/
   }
   .intro__paragraph_quote {
-    max-width: 738px;
     margin-top: 40px;
     margin-bottom: 10px;
   }
   .intro__paragraph_author {
     line-height: 2.125rem;
-    max-width: 732px;
     text-align: right;
     margin: 0;
   }
