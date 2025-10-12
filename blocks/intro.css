@@ -34,7 +34,6 @@
   max-width: 86.99%; /*722px*/
   margin: 0;
   margin-top: 32px;
-  letter-spacing: 0%;
 }
 
 @media screen and (max-width: 1024px) {
@@ -103,6 +102,5 @@
     line-height: 163%;
     margin: 0;
     margin-top: 32px;
-    letter-spacing: 0%;
   }
 }
