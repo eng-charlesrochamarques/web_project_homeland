@@ -6,7 +6,7 @@
   min-width: 320px;
   margin: 0 auto;
   font-family: "Inter Web";
-  /*font-family: 'Noto Serif', 'Times New Roman', serif;*/
+  font-size: 16px;
 }
 body {
   background-color: #2a2c2f;
