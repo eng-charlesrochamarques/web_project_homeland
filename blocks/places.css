@@ -60,7 +60,7 @@
   font-weight: 400;
   font-size: 0.75rem;
   line-height: 100%;
-  letter-spacing: 12%;
+  /*letter-spacing: 12%;*/
   text-transform: uppercase;
 }
 .place__website-paragraph {
@@ -207,7 +207,7 @@
     font-weight: 400;
     font-size: 0.75rem;
     line-height: 100%;
-    letter-spacing: 12%;
+    /*letter-spacing: 12%;*/
     text-transform: uppercase;
     margin-bottom: 8px;
   }
