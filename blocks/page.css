@@ -11,7 +11,7 @@
 body {
   background-color: #2a2c2f;
 }
-@media screen and (max-width: 544px) {
-}
 @media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 544px) {
 }
