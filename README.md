@@ -10,7 +10,9 @@ The page includes:
 
 - A **header** with the project logo.
 - A **main section** with a title, subtitle, and main image.
-- An **intro section** featuring a quote, the author’s name, and descriptive text about the project.
+- An **intro** section with a quote, the author’s name, and descriptive project text.
+- Multiple **place** sections, each highlighting a country or location through images, text, and external links.
+- Use of **BEM (Block Element Modifier)** methodology for all section class naming.
 - A **footer** with credits and copyright information.
 
 ---
@@ -18,30 +20,42 @@ The page includes:
 🛠️ **Technologies Used**
 
 - **HTML5** → semantic page structure
-- **CSS3** → styling, layout, and basic responsiveness
-- **BEM Methodology** → organized and scalable class naming
-- **Google Fonts** → optimized web typography
+- **CSS3** → styling, layout, and responsiveness
+- **BEM Methodology** → organized, scalable, and readable class names
+- **Google Fonts** → modern and optimized web typography
 - **Favicon SVG** → custom site icon
+
+---
+
+✨ **Main Features**
+
+- **Multiple Content Sections:**  
+  Each `place` section tells a story about a specific location, using images and texts for immersion.
+- **Responsive Design:**  
+  Built mobile-first using relative units (`%`, `vw`, `clamp()`). Uses media queries to adjust typography, spacing, and layout at different breakpoints.
+- **Scoped Custom Styles:**  
+  Uses BEM modifiers (e.g. `.place__paragraph-text`, `.place__paragraph-text:nth-of-type(3)`) for precise individual section or element customization.
+- **Accessibility:**  
+  Semantic HTML structure, descriptive alt text for all images.
+- **External References:**  
+  Country/location links open in new tabs for extra context.
+- **Organized Code:**  
+  No selector repetition for base elements. Media-query styles and element variants are grouped for clarity.
 
 ---
 
 🎨 **Layout and Responsiveness**
 
-The layout was developed with a **mobile-first** approach and uses **relative units** (`%`, `vw`, `clamp()`) for a fluid design that adapts naturally to different screen sizes.  
-Media queries are minimal and used only when necessary to refine spacing or text alignment.
+- **Mobile-first design** ensures usability on all devices.
+- Use of **mini media queries** only for fine-tuning, with minimal overrides.
+- Consistent and adaptive typography for every screen size.
 
 ---
 
-🔧 **Future Improvements**
-
-Planned updates to enhance functionality and appearance:
+🔧 **Planned Improvements**
 
 - Add smooth scrolling and subtle animations.
-
 - Improve accessibility (ARIA labels, focus states).
-
 - Implement advanced media queries for tablets and ultra-wide screens.
-
 - Add a theme switch (light/dark mode).
-
-- Include more sections with photos and short descriptions from different regions.
+- Expand with more sections: photos and short descriptions from more regions.
